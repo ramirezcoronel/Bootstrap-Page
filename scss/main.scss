@@ -1,0 +1,64 @@
+$color: (
+  light: #fff,
+  dark: #222626,
+  dark-secondary: #192431,
+  dark-blue: #2e3b4e,
+  grey: #959595,
+  light-grey: #e1e1e1,
+  pink: #f5989d,
+  purple: #615f7d,
+  light-purple: #bd8cbf,
+  light-green: #82ca9c
+);
+$font: (
+  OpenSans: "Open Sans"
+);
+$font-weight: (
+  small: 300,
+  regular: 400,
+  semi-bold: 600,
+  bold: 700
+);
+
+// Functions
+@function color($color-name) {
+  @return map-get($color, $color-name);
+}
+@function weight($weight) {
+  @return map-get($font-weight, $weight);
+}
+// Basic Styles
+h1,
+h2,
+h3 {
+  font-family: "Open Sans", sans-serif;
+}
+
+// Header Section
+.banner {
+  background: url(../img/Banner_img.jpg) left / cover no-repeat;
+  height: 953px;
+}
+.container {
+  height: 100%;
+}
+.header {
+  padding-top: 56px;
+}
+.banner-text {
+  color: color(light);
+  h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: weight(small);
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px;
+  }
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: weight(regular);
+    width: 440px;
+    font-size: 13px;
+    line-height: 13px;
+  }
+}

@@ -1,0 +1,29 @@
+h1,
+h2,
+h3 {
+  font-family: "Open Sans", sans-serif; }
+
+.banner {
+  background: url(../img/Banner_img.jpg) left/cover no-repeat;
+  height: 953px; }
+
+.container {
+  height: 100%; }
+
+.header {
+  padding-top: 56px; }
+
+.banner-text {
+  color: #fff; }
+  .banner-text h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 60px;
+    margin-bottom: 20px; }
+  .banner-text p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    width: 440px;
+    font-size: 13px;
+    line-height: 13px; }
