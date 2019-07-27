@@ -4,8 +4,8 @@ h3 {
   font-family: "Open Sans", sans-serif; }
 
 .banner {
-  background: url(../img/Banner_img.jpg) left/cover no-repeat;
-  height: 953px; }
+  background: url(../img/Banner_img.jpg) right center/cover no-repeat;
+  height: 950px; }
 
 .container {
   height: 100%; }
@@ -27,3 +27,181 @@ h3 {
     width: 440px;
     font-size: 13px;
     line-height: 13px; }
+
+.content-text {
+  margin-top: 110px;
+  margin-bottom: 75px; }
+  .content-text h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #222626;
+    font-size: 35px;
+    line-height: 35px;
+    padding: 5px 0;
+    margin-bottom: 20px; }
+  .content-text p {
+    font-size: 14;
+    padding: 5px 0;
+    margin-bottom: 20px;
+    color: #959595; }
+  .content-text .iphone-container {
+    position: relative;
+    height: 190px; }
+    .content-text .iphone-container .iphone {
+      position: absolute;
+      bottom: 30px;
+      left: -150px; }
+
+.content-text-secondary {
+  margin-bottom: 155px; }
+  .content-text-secondary h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    color: #222626;
+    font-size: 35px;
+    line-height: 35px;
+    padding: 5px 0;
+    margin-bottom: 55px; }
+  .content-text-secondary p {
+    font-size: 13;
+    padding: 5px 0;
+    margin-bottom: 0;
+    color: #959595; }
+    .content-text-secondary p strong {
+      margin-bottom: 20px; }
+  .content-text-secondary .iphone-container {
+    position: relative;
+    height: 190px; }
+    .content-text-secondary .iphone-container .iphone {
+      position: absolute;
+      bottom: 30px;
+      left: -150px; }
+
+.grid-layout {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (400px)[4];
+  grid-template-columns: repeat(4, 400px);
+  -ms-grid-rows: (280px)[2];
+  grid-template-rows: repeat(2, 280px);
+  margin-bottom: 90px;
+  color: #fff; }
+  .grid-layout > div {
+    padding: 45px; }
+    .grid-layout > div h3 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+      font-size: 30px;
+      line-height: 30px;
+      padding: 5px 0;
+      margin-bottom: 10px; }
+    .grid-layout > div p {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 18px;
+      padding: 5px 0;
+      margin-bottom: 30px; }
+    .grid-layout > div a {
+      color: #fff;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 14px; }
+      .grid-layout > div a .material-icons {
+        vertical-align: middle;
+        font-size: 20px; }
+  .grid-layout .item-1 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / span 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / span 1;
+    background: #f5989d; }
+  .grid-layout .item-2 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / span 1;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2 / span 1;
+    background: #615f7d; }
+  .grid-layout .item-3 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / span 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / span 1;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/grid-first.jpg) center/cover no-repeat;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-first.jpg) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-first.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-first.jpg) center/cover no-repeat; }
+  .grid-layout .item-4 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1 / span 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4 / span 1;
+    background: #bd8cbf; }
+  .grid-layout .item-5 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / span 1;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1 / span 2;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/grid-second.jpg) center/cover no-repeat;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-second.jpg) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-second.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-second.jpg) center/cover no-repeat; }
+  .grid-layout .item-6 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / span 1;
+    -ms-grid-column: 3;
+    -ms-grid-column-span: 1;
+    grid-column: 3 / span 1;
+    background: #82ca9c; }
+  .grid-layout .item-7 {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2 / span 1;
+    -ms-grid-column: 4;
+    -ms-grid-column-span: 1;
+    grid-column: 4 / span 1;
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.2))), url(../img/grid-third.jpg) center/cover no-repeat;
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-third.jpg) center/cover no-repeat;
+    background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-third.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-third.jpg) center/cover no-repeat; }
+
+.second-banner {
+  height: 874px;
+  padding-bottom: 127px;
+  background: url(../img/background-filter.png) center/cover no-repeat, url(../img/bg-img.jpg) center/cover no-repeat;
+  color: #fff; }
+  .second-banner h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 300;
+    font-size: 60px;
+    padding: 5px 0;
+    line-height: 60px;
+    margin-bottom: 15px; }
+  .second-banner p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    width: 440px;
+    padding: 5px 0 10px;
+    font-size: 13px;
+    line-height: 18px; }
+  .second-banner a {
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 14px; }
+    .second-banner a .material-icons {
+      vertical-align: middle;
+      font-size: 20px; }
