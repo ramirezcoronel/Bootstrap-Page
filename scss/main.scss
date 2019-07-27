@@ -8,7 +8,8 @@ $color: (
   pink: #f5989d,
   purple: #615f7d,
   light-purple: #bd8cbf,
-  light-green: #82ca9c
+  light-green: #82ca9c,
+  light-blue-secondary: #8297a7
 );
 $font: (
   OpenSans: "Open Sans"
@@ -234,3 +235,103 @@ h3 {
     }
   }
 }
+.reasons_bg {
+  height: 536px;
+  background-color: color(light-green);
+  color: color(light);
+}
+.reasons {
+  h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: weight(small);
+    font-size: 35px;
+    padding: 5px 0;
+    line-height: 35px;
+    margin-bottom: 45px;
+  }
+  .sub-title {
+    font-size: 13px;
+    margin-bottom: 15px;
+    line-height: 1em;
+    font-weight: font(semi-bold);
+  }
+  p {
+    font-family: "Open Sans", sans-serif;
+    font-weight: weight(regular);
+    padding: 5px 0 10px;
+    font-size: 14px;
+    line-height: 19px;
+  }
+}
+
+.plan-section {
+  height: 630px;
+  .plan-box {
+    width: 570;
+    height: 380px;
+    padding: 53px 40px;
+
+    .tag,.disabled-tag {
+      font-size: 11px;
+      color: color(light);
+      line-height: 10px;
+      font-weight: weight(bold);
+      background: color(light-purple);
+      padding: 8px 12px;
+      border: none;
+      margin: 5px 0 18px;
+    }
+    .tag{
+        background: color(light-purple);
+    }
+    .disabled-tag{
+        background: color(light-grey);
+    }
+    h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: weight(small);
+      color: color(dark-blue);
+      font-size: 30px;
+      padding: 5px 0 10px;
+      line-height: 30px;
+      margin-bottom: 5px;
+    }
+    p {
+      font-family: "Open Sans", sans-serif;
+      font-weight: weight(regular);
+      color: color(light-blue-secondary);
+      font-size: 14px;
+      line-height: 20px;
+      vertical-align: top;
+      margin-bottom: 15px;
+    }
+    .buy-btn {
+      background: color(light-green);
+      color: color(light);
+      padding: 18px 25px;
+      margin-bottom: 20px;
+      border: none;
+      line-height: 10px;
+      font-size: 13px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: weight(bold);
+    }
+    .device-icons {
+      height: 25px;
+      .mac {
+        background: url(../img/mac.png) center / cover no-repeat;
+      }
+      .windows {
+        background: url(../img/windows.png) center / cover no-repeat;
+      }
+      .mac,
+      .windows {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+      }
+    }
+  }
+}
+// <!-- 630 --> SECCION
+// <!--caja 570 x 380 --> CAJA PADDING 53 lado 40 alto

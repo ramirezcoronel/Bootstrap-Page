@@ -205,3 +205,86 @@ h3 {
     .second-banner a .material-icons {
       vertical-align: middle;
       font-size: 20px; }
+
+.reasons_bg {
+  height: 536px;
+  background-color: #82ca9c;
+  color: #fff; }
+
+.reasons h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 35px;
+  padding: 5px 0;
+  line-height: 35px;
+  margin-bottom: 45px; }
+
+.reasons .sub-title {
+  font-size: 13px;
+  margin-bottom: 15px;
+  line-height: 1em;
+  font-weight: font(semi-bold); }
+
+.reasons p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  padding: 5px 0 10px;
+  font-size: 14px;
+  line-height: 19px; }
+
+.plan-section {
+  height: 630px; }
+  .plan-section .plan-box {
+    width: 570;
+    height: 380px;
+    padding: 53px 40px; }
+    .plan-section .plan-box .tag, .plan-section .plan-box .disabled-tag {
+      font-size: 11px;
+      color: #fff;
+      line-height: 10px;
+      font-weight: 700;
+      background: #bd8cbf;
+      padding: 8px 12px;
+      border: none;
+      margin: 5px 0 18px; }
+    .plan-section .plan-box .tag {
+      background: #bd8cbf; }
+    .plan-section .plan-box .disabled-tag {
+      background: #e1e1e1; }
+    .plan-section .plan-box h2 {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 300;
+      color: #2e3b4e;
+      font-size: 30px;
+      padding: 5px 0 10px;
+      line-height: 30px;
+      margin-bottom: 5px; }
+    .plan-section .plan-box p {
+      font-family: "Open Sans", sans-serif;
+      font-weight: 400;
+      color: #8297a7;
+      font-size: 14px;
+      line-height: 20px;
+      vertical-align: top;
+      margin-bottom: 15px; }
+    .plan-section .plan-box .buy-btn {
+      background: #82ca9c;
+      color: #fff;
+      padding: 18px 25px;
+      margin-bottom: 20px;
+      border: none;
+      line-height: 10px;
+      font-size: 13px;
+      font-family: "Open Sans", sans-serif;
+      font-weight: 700; }
+    .plan-section .plan-box .device-icons {
+      height: 25px; }
+      .plan-section .plan-box .device-icons .mac {
+        background: url(../img/mac.png) center/cover no-repeat; }
+      .plan-section .plan-box .device-icons .windows {
+        background: url(../img/windows.png) center/cover no-repeat; }
+      .plan-section .plan-box .device-icons .mac,
+      .plan-section .plan-box .device-icons .windows {
+        display: inline-block;
+        width: 25px;
+        height: 25px; }
