@@ -15,13 +15,16 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <!-- banner -->
     <div class="container-fluid banner">
       <div class="container d-flex flex-column justify-content-between">
+        <!-- header -->
         <header class="row header">
           <div>
-            <img src="img/logo.png" alt="Task" />
+            <img src="img/logo.png" id="logo" alt="Task" />
           </div>
         </header>
+        <!-- header headline -->
         <div class="row h-100 flex-column justify-content-center banner-text">
           <h1>Picture perfect</h1>
           <p>
@@ -32,7 +35,8 @@
     </div>
     <main>
       <section class="container">
-        <div class="row" id="firstSection">
+        <!-- First Section -->
+        <div class="row d-flex justify-content-between" id="firstSection">
           <div class="col-xl-6 content-text">
             <h2>Start something new</h2>
             <p>
@@ -65,8 +69,11 @@
           </div>
         </div>
       </section>
-      <section class="container overflow-hidden">
-        <div class="grid-layout text-light">
+      <!-- grid section -->
+
+      <section class="container-fluid overflow-hidden">
+        <div class="container">
+          <div class="grid-layout text-light">
           <div class="item-1">
             <h3>Design quality</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing.</p>
@@ -97,32 +104,34 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing.</p>
             <a class="float-left" href="#">Find Out more <i class="medium material-icons">arrow_forward</i></a>
           </div>
-          <div class="item-7">
+          <div class="item-7 bg-dark">
             <h3>Design quality</h3>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut adipisicing.</p>
             <a class="float-left" href="#">Find Out more <i class="medium material-icons">arrow_forward</i></a>
           </div>
         </div>
+        </div>
+        
       </section>
       <section class="container content-text-secondary">
         <h2>A look at details</h2>
         <div class="row">
-          <div class="col-xl-3">
+          <div class="col-md-3">
             <p><strong>Web Based</strong></p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
-          <div class="col-xl-3">
+          <div class="col-md-3">
               <p><strong>Performance</strong></p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
-          <div class="col-xl-3">
+          <div class="col-md-3">
               <p><strong>Cultural</strong></p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
           </div>
-          <div class="col-xl-3">
+          <div class="col-md-3">
               <p><strong>Sustainability</strong></p>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
                 Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
@@ -147,25 +156,25 @@
           </div>
         </div>
       </section>
-      <section class="container-fluid reasons_bg">
+      <section class="container-fluid reasons-bg d-flex align-items-center">
         <div class="container reasons d-flex flex-column justify-content-center">
           <h2>Reasons to get on board</h2>
           <div class="row">
-            <div class="col-xl-4">
+            <div class="col-md-4">
               <p class="sub-title">Web based</p>
               <p> 
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
                 aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
               </p>
             </div>
-            <div class="col-xl-4">
+            <div class="col-md-4">
                 <p class="sub-title">Web based</p>
                 <p> 
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
                   aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
                 </p>
             </div>
-            <div class="col-xl-4">
+            <div class="col-md-4">
                 <p class="sub-title">Web based</p>
                 <p> 
                   Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -176,9 +185,9 @@
         </div>
       </section>
       <section class="container-fluid plan-section">
-        <div class="container d-flex align-items-center">
-          <div class="row">
-              <div class="col-xl-6 plan-box">
+        <div class="container d-flex align-items-center justify-content-center">
+          <div class="row d-flex flex-column-reverse flex-lg-row" id="plans">
+              <div class="plan-box col-lg-6 col-12">
                   <button type="button" class="btn tag disabled-tag">LEGACY</button>
                   <h2>Got it solo</h2>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
@@ -188,7 +197,7 @@
                     <div class="windows"></div>
                   </div>
                 </div>
-            <div class="col-xl-6 plan-box bg-light shadow-lg">
+            <div class="plan-box col-lg-6 col-12" id="popular">
                 <button type="button" class="btn tag">MOST POPULAR</button>
                 <h2>Team Plan</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris.</p>
@@ -202,7 +211,59 @@
         </div>
       </section>
     </main>
-
+    <footer class="container-fluid d-flex flex-column justify-content-center">
+        <div class="container d-flex flex-column justify-content-center">
+          <div class="row d-flex justify-content-between">
+            <div class="footer-info col-lg-6 col-12">
+              <p class="footer-title">Get in touch</p>
+              <p class="footer-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <div class="footer-contact col-lg-6 col-12 mx-auto">
+              <p class="footer-title">Stay in touch</p>
+              <div class="footer-input">
+               <input type="email" name="user-email" class="">
+                <button type="button"><i class="material-icons">done</i></button> 
+              </div>
+              <p class="footer-input-text">We don't send spam. Actually, who are we kiding, We'll spam the shit out of your inbox</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="d-flex justify-content-around col-lg-6  col-12">
+              <div class="footer-list">
+              <p class="footer-title">Resources</p>
+              <ul>
+                <li>Tour</li>
+                <li>Customers</li>
+                <li>Pricing and Plans</li>
+                <li>New Features</li>
+                <li>Education</li>
+              </ul>
+            </div> 
+            <div class="footer-list">
+              <p class="footer-title">Features</p>
+              <ul>
+                <li>Tour</li>
+                <li>Customers</li>
+                <li>Pricing and Plans</li>
+                <li>New Features</li>
+                <li>Education</li>
+              </ul>
+            </div>  
+            <div class="footer-list">
+              <p class="footer-title">How To's</p>
+              <ul>
+                <li>Tour</li>
+                <li>Customers</li>
+                <li>Pricing and Plans</li>
+                <li>New Features</li>
+                <li>Education</li>
+              </ul>
+            </div>   
+            </div>
+            
+          </div>
+        </div>
+    </footer>
     <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="jquery/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="script/scripts.js"></script>

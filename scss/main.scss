@@ -1,3 +1,4 @@
+$break-large: 992px;
 $color: (
   light: #fff,
   dark: #222626,
@@ -40,6 +41,20 @@ h3 {
 .banner {
   background: url(../img/Banner_img.jpg) right center / cover no-repeat;
   height: 950px;
+  @media screen and (max-width: 1200px) {
+   background-position: -750px;
+
+   .banner-text{
+      h1{
+        font-size: 3em;
+      }
+      p{
+        width: 300px;
+        font-size: 13px;
+        line-height: 1.5em;
+      }
+    }
+  }
 }
 .container {
   height: 100%;
@@ -66,11 +81,13 @@ h3 {
 }
 
 // First content section
+#firstSection{
+  padding: 110px 0 75px;
+}
 
 .content-text {
 
-  margin-top: 110px;
-  margin-bottom: 75px;
+  
   h2 {
     font-family: "Open Sans", sans-serif;
     font-weight: weight(small);
@@ -80,6 +97,7 @@ h3 {
     padding: 5px 0;
     margin-bottom: 20px;
     opacity: 0;
+
   }
   p {
     font-size: 14;
@@ -91,6 +109,10 @@ h3 {
   .iphone-container {
     position: relative;
     height: 190px;
+    @media screen and (max-width: 1200px) {
+    display: none;
+  }
+    
     .iphone {
       position: absolute;
       opacity: 0;
@@ -201,7 +223,7 @@ h3 {
 .second-banner {
   height: 874px;
   padding-bottom: 127px;
-  background: url(../img/background-filter.png) center / cover no-repeat, url(../img/bg-img.jpg) center / cover no-repeat;
+  background: linear-gradient(transparent, #000), url(../img/background-filter.png) center / cover no-repeat, url(../img/bg-img.jpg) center / cover no-repeat;
   color: color(light);
   h2 {
     font-family: "Open Sans", sans-serif;
@@ -214,7 +236,7 @@ h3 {
   p {
     font-family: "Open Sans", sans-serif;
     font-weight: weight(regular);
-    width: 440px;
+    max-width: 440px;
     padding: 5px 0 10px;
     font-size: 13px;
     line-height: 18px;
@@ -231,11 +253,11 @@ h3 {
     }
   }
 }
-.reasons_bg {
-  height: 536px;
+.reasons-bg {
+  min-height: 536px;
   background-color: color(light-green);
   color: color(light);
-}
+  
 .reasons {
   h2 {
     font-family: "Open Sans", sans-serif;
@@ -258,14 +280,20 @@ h3 {
     font-size: 14px;
     line-height: 19px;
   }
+  @media screen and (max-width: 796px){
+    padding: 100px 0;
+   }
+}
 }
 
 .plan-section {
-  height: 630px;
+  min-height: 630px;
+  padding: 100px 0 145px;
   .plan-box {
-    width: 570;
+    max-width: 570px;
     height: 380px;
     padding: 53px 40px;
+    transition: all ease 2s;
 
     .tag,.disabled-tag {
       font-size: 11px;
@@ -329,5 +357,61 @@ h3 {
     }
   }
 }
-// <!-- 630 --> SECCION
-// <!--caja 570 x 380 --> CAJA PADDING 53 lado 40 alto
+
+footer{
+  min-height: 608px;
+  background-color: color(dark-secondary);
+  color:color(light);
+  font-size: 13px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: weight(regular);
+
+  .footer-title{
+    font-weight: weight(semi-bold);
+    padding: 10px 0;
+    margin-bottom: 15px;
+  }
+  .footer-text{
+    vertical-align: top;
+    line-height: 23px;
+  }
+  .footer-input{
+    margin-bottom: 10px; 
+    max-width: 470px;
+    height: 60px;
+    display: flex;
+    input{
+      flex: 1 1 auto;
+      border-radius: 5px 0 0 5px;
+    }
+    button{
+      width: 70px;
+      color: color(light);
+      background-color: color(light-green);
+      border: none;
+      border-radius: 0 5px 5px 0; 
+      i{
+        font-size: 32px;
+      }
+    }
+  }
+  .footer-input-text{
+    max-width: 340px;
+    color: #57697f;
+    font-size: 12px;
+    padding:5px 0;
+    margin-bottom: 15px;
+  }
+  .footer-list{
+    width: 105px;
+    ul{
+      list-style: none;
+      padding: 0;
+
+      li{
+        margin-bottom: 5px;
+      }
+    }
+  }
+
+}
