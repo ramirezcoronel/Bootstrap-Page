@@ -168,6 +168,7 @@ h3 {
       font-size: 13px;
       line-height: 18px;
       padding: 5px 0;
+      max-width: 450px;
       margin-bottom: 30px;
     }
     a {
@@ -181,8 +182,8 @@ h3 {
         font-size: 20px;
       }
     }
-  }
 
+  }
   .item-1 {
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
@@ -207,6 +208,10 @@ h3 {
     grid-row: 2 / span 1;
     grid-column: 1 / span 2;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-second.jpg) center / cover no-repeat;
+    p{
+        margin-bottom: 46px;
+    }
+
   }
   .item-6 {
     grid-row: 2 / span 1;

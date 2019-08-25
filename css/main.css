@@ -112,6 +112,7 @@ h3 {
       font-size: 13px;
       line-height: 18px;
       padding: 5px 0;
+      max-width: 450px;
       margin-bottom: 30px; }
     .grid-layout > div a {
       color: #fff;
@@ -168,6 +169,8 @@ h3 {
     background: -webkit-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-second.jpg) center/cover no-repeat;
     background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-second.jpg) center/cover no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-second.jpg) center/cover no-repeat; }
+    .grid-layout .item-5 p {
+      margin-bottom: 46px; }
   .grid-layout .item-6 {
     -ms-grid-row: 2;
     -ms-grid-row-span: 1;
