@@ -143,11 +143,14 @@ h3 {
   }
 }
 
+.grid-scroll{
+  margin-bottom: 95px;
+}
+
 .grid-layout {
   display: grid;
   grid-template-columns: repeat(4, 400px);
   grid-template-rows: repeat(2, 280px);
-  margin-bottom: 90px;
 
   color: color(light);
   & > div {
@@ -184,6 +187,9 @@ h3 {
     }
 
   }
+  .fa{
+      transform: translateY(100%);
+    }
   .item-1 {
     grid-row: 1 / span 1;
     grid-column: 1 / span 1;
@@ -256,6 +262,7 @@ h3 {
       vertical-align: middle;
       font-size: 20px;
     }
+    
   }
 }
 .reasons-bg {
