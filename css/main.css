@@ -20,9 +20,9 @@ h3 {
   width: 100%;
   margin-top: -54px;
   z-index: 2;
-  -webkit-transition: all ease .5s;
-  -o-transition: all ease .5s;
-  transition: all ease .5s; }
+  -webkit-transition: all ease .3s;
+  -o-transition: all ease .3s;
+  transition: all ease .3s; }
 
 #psdExample img {
   width: 100%; }
