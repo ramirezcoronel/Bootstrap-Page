@@ -51,11 +51,12 @@ $('document').ready(function(){
 
 	// Scrolling functions
 	
-	let waypoint = new Waypoint({
-		element: $(window),
-		handler:function(dir){
-			console.log('direccion ' + dir);
-		}
+	let lastScroll = 0;
+
+	$(window).on('scroll', function(){
+		$("#modalSection").toggleClass('hide', $(window).scrollTop() > lastScroll);
+		lastScroll = $(window).scrollTop();
 	})
+	
 
 });

@@ -43,23 +43,31 @@ h2,
 h3 {
   font-family: "Open Sans", sans-serif;
 }
-
 /******************************************************
                   MODAL STYLING
 *******************************************************/
-
+#modalSection{
+  position: fixed;
+  width: 100%;
+  margin-top: -54px;
+  z-index: 2;
+  transition: all ease .5s;
+}
 #psdExample{
   img{
     width: 100%;
   }
 }
-
+.hide{
+  transform: translateY(-100%);
+}
 /******************************************************
                   HEADER SECTION
 *******************************************************/
 .banner {
   background: url(../img/Banner_img.jpg) right center / cover no-repeat;
   height: 950px;
+  margin-top: 54px;
   @media screen and (max-width: 1200px) {
    background-position: -750px;
 
