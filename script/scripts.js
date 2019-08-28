@@ -48,4 +48,14 @@ $('document').ready(function(){
 			$('#popular').addClass('shadow-lg');
 		}
 	})
+
+	// Scrolling functions
+	
+	let waypoint = new Waypoint({
+		element: $(window),
+		handler:function(dir){
+			console.log('direccion ' + dir);
+		}
+	})
+
 });

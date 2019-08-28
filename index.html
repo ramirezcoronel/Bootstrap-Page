@@ -15,6 +15,32 @@
     <link rel="stylesheet" href="css/main.css" />
   </head>
   <body>
+    <div class="align-text-center modal-btn-container bg-dark p-2" id="modalSection">
+       <!-- Button trigger modal -->
+      <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#psdExample">
+        View PSD Design
+      </button>
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="psdExample" tabindex="-1" role="dialog" aria-labelledby="psdExampleLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="psdExampleLabel">Webpage Design</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>"Take" design turned into a responsive landing page.</p>
+            <img src="img/takeMockup.jpg" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <!-- banner -->
     <div class="container-fluid banner">
       <div class="container d-flex flex-column justify-content-between">
@@ -273,8 +299,8 @@
           </div>
         </div>
     </footer>
-    <script src="bootstrap/js/bootstrap.min.js"></script>
     <script src="jquery/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="script/scripts.js"></script>
   </body>
 </html>

@@ -1,8 +1,26 @@
+/******************************************************
+                  VARIABLES
+*******************************************************/
+/******************************************************
+                  FUNCTIONS
+*******************************************************/
+/******************************************************
+                  BASIC STYLING
+*******************************************************/
 h1,
 h2,
 h3 {
   font-family: "Open Sans", sans-serif; }
 
+/******************************************************
+                  MODAL STYLING
+*******************************************************/
+#psdExample img {
+  width: 100%; }
+
+/******************************************************
+                  HEADER SECTION
+*******************************************************/
 .banner {
   background: url(../img/Banner_img.jpg) right center/cover no-repeat;
   height: 950px; }
@@ -37,6 +55,9 @@ h3 {
     font-size: 13px;
     line-height: 13px; }
 
+/******************************************************
+                  FIRST SECTION
+*******************************************************/
 #firstSection {
   padding: 110px 0 75px; }
 
@@ -87,6 +108,9 @@ h3 {
     .content-text-secondary p strong {
       margin-bottom: 20px; }
 
+/******************************************************
+                  GRID SECTION
+*******************************************************/
 .grid-scroll {
   margin-bottom: 95px; }
 
@@ -197,6 +221,9 @@ h3 {
     background: -o-linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-third.jpg) center/cover no-repeat;
     background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/grid-third.jpg) center/cover no-repeat; }
 
+/******************************************************
+                  SECOND BANNER
+*******************************************************/
 .second-banner {
   height: 874px;
   padding-bottom: 127px;
@@ -229,6 +256,9 @@ h3 {
       vertical-align: middle;
       font-size: 20px; }
 
+/******************************************************
+                  "REASONS TO GET ON BOARD" SECTION
+*******************************************************/
 .reasons-bg {
   min-height: 536px;
   background-color: #82ca9c;
@@ -255,6 +285,9 @@ h3 {
     .reasons-bg .reasons {
       padding: 100px 0; } }
 
+/******************************************************
+                  PLANS SECTION
+*******************************************************/
 .plan-section {
   min-height: 630px;
   padding: 100px 0 145px; }
@@ -316,6 +349,9 @@ h3 {
         width: 25px;
         height: 25px; }
 
+/******************************************************
+                  FOOTER
+*******************************************************/
 footer {
   min-height: 608px;
   background-color: #192431;
